@@ -1,0 +1,27 @@
+#client--button-send, #client--button-remove {
+  margin-left: 12px;
+}
+
+#client {
+  padding: 12px;
+}
+
+#client--container-card {
+  padding: 12px;
+  border-radius: 12px;
+  background-color: #f8f9fa;
+
+  display: flex;
+}
+
+#client--container-card > div + div {
+  margin-left: 18px;
+}
+
+#client--container-card:nth-child(n + 1) {
+  margin-top: 12px;
+}
+
+#client--container-request, #client--container-response {
+  flex: 1;
+}
