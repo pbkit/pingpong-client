@@ -227,20 +227,20 @@
   dependencies:
     browser-headers "^0.4.1"
 
-"@pbkit/grpc-web-client@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@pbkit/grpc-web-client/-/grpc-web-client-0.1.1.tgz#291842e524f76167578ee85a3e7b47a210b0b19e"
-  integrity sha512-q+ot+7KDaaA5COT3tAAb9vp1b5jOp/aCiwLDu2vSJ6B5ASYWVf29Y+eS5s+MXefyYZvIlFrODBs1lZxbImt1Lg==
+"@pbkit/grpc-web-client@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@pbkit/grpc-web-client/-/grpc-web-client-0.1.2.tgz#90b743e4562be90bb9e7a1d0fc7c09075392b000"
+  integrity sha512-krPIUzsrlBmzS3MO2DfylBdN7qsWg3WWnLjeyY4RDvL0DwQu0xpLFMqjivMWqy30elM0vX98fBkr8duqr4o8UQ==
   dependencies:
     "@improbable-eng/grpc-web" "^0.14.1"
     "@improbable-eng/grpc-web-node-http-transport" "^0.14.1"
-    "@pbkit/runtime" "^0.0.21"
+    "@pbkit/runtime" "^0.0.35"
     google-protobuf "^3.18.0-rc.2"
 
-"@pbkit/runtime@^0.0.21":
-  version "0.0.21"
-  resolved "https://registry.yarnpkg.com/@pbkit/runtime/-/runtime-0.0.21.tgz#636c37eea43b242ebee8daa71f2a448cd536074a"
-  integrity sha512-hjWvtFImyb9l1KW2i7fW0kM/24Shg9vr9QKX1KzUbv7OUX0RPEvyFzkTeTJ+3rMaw1ynbzapNiJ5Ik/Kvdy3mQ==
+"@pbkit/runtime@^0.0.35":
+  version "0.0.35"
+  resolved "https://registry.yarnpkg.com/@pbkit/runtime/-/runtime-0.0.35.tgz#2592754ac742b608cc3d33aaced7d17f76f21863"
+  integrity sha512-QPey6r26Dfh1gVfUmGH0qn4lhbH2RVRC7St3mnERISyT1Gx1RgBpGIQJs14Pwt8E7TfJB+a0Btj6nr6teUADTg==
 
 "@preact/preset-vite@^2.1.5":
   version "2.1.7"
@@ -607,10 +607,10 @@ path-parse@^1.0.7:
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
   integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
-pbkit@^0.0.30:
-  version "0.0.30"
-  resolved "https://registry.yarnpkg.com/pbkit/-/pbkit-0.0.30.tgz#0092e0b439ba12dbec4585fff7e4b11d8a084ca0"
-  integrity sha512-MReezQSiAVH1k/v7kyurY5smeRUrwzISPnMrcG8+3fpAo/LqOuEuJSiKLMERMh3DblJ/oY4iMt/IAiGvjqhajw==
+pbkit@^0.0.41:
+  version "0.0.41"
+  resolved "https://registry.yarnpkg.com/pbkit/-/pbkit-0.0.41.tgz#c52f295350d0782b13ab2981ae3c35196083bae7"
+  integrity sha512-A1L5zlc7cSikDkYS54kCH6aEUCYluNV3O/NMQBwQ5GYuZIoSEnXYwPFBNmE8360CNb3Y+qC0blYVvCjAwe/6LQ==
   dependencies:
     "@yarnpkg/fslib" "^2.6.0-rc.8"
     "@yarnpkg/libzip" "^2.2.2"

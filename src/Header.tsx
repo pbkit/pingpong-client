@@ -1,5 +1,3 @@
-import "./header.css";
-
 const Header = () => {
   return (
     <div id="header">
@@ -38,7 +36,7 @@ const Header = () => {
         Should serve pingpong-server with port 8080!
       </p>
     </div>
-  )
-}
+  );
+};
 
 export default Header;
