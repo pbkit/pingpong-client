@@ -30,7 +30,7 @@ pollapo install
 yarn install
 ```
 
-4. Excute gen
+4. Execute gen
 
 ```sh
 yarn gen
