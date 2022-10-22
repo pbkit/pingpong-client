@@ -20,25 +20,25 @@ cd pingpong-client
 
 2. Require installing pollapo
 
-```
+```sh
 pollapo install
 ```
 
 3. Install packages
 
-```
+```sh
 npm install
 ```
 
 4. Excute gen
 
-```
+```sh
 npm gen
 ```
 
 5. Run client develop server
 
-```
+```sh
 npm dev
 ```
 
