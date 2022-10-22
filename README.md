@@ -1,38 +1,42 @@
 # pingpong Example
 
-### pingpong-client
+## pingpong-client
 
 **web client for testing pbkit-codegen + interface-pingpong-server + pbkit-devtools**
 
+## Before Start
+
+The pingpong server must be running.  
+Go to [pingpong-server](https://github.com/pbkit/pingpong-server) and follow the instruction
+
+## How to start?
+
 1. Clone pingpong-client project.
 
-```
+```sh
 git clone https://github.com/pbkit/pingpong-client.git
 cd pingpong-client
 ```
 
-2. The pingpong server must be running.  
-   Go to [pingpong-server](https://github.com/pbkit/pingpong-server) and follow the instruction
-
-3. Require installing pollapo
+2. Require installing pollapo
 
 ```
 pollapo install
 ```
 
-4. Install packages
+3. Install packages
 
 ```
 npm install
 ```
 
-5. Excute gen
+4. Excute gen
 
 ```
 npm gen
 ```
 
-6. Run client develop server
+5. Run client develop server
 
 ```
 npm dev
