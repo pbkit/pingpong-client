@@ -27,19 +27,19 @@ pollapo install
 3. Install packages
 
 ```sh
-npm install
+yarn install
 ```
 
 4. Excute gen
 
 ```sh
-npm gen
+yarn gen
 ```
 
 5. Run client develop server
 
 ```sh
-npm dev
+yarn dev
 ```
 
 ## Compatibility
